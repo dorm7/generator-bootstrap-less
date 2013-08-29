@@ -94,10 +94,10 @@ module.exports = function (grunt) {
     },
     open: {
       server: {
-        path: 'http://localhost:<%= connect.options.port %>'
+        path: 'http://localhost:<%%= connect.options.port %>'
       },
 	  django:{
-        path: 'http://localhost:<%= connect.options.djangoPort %>'
+        path: 'http://localhost:<%%= connect.options.djangoPort %>'
 	  }
     },
     clean: {
@@ -119,7 +119,7 @@ module.exports = function (grunt) {
       all: {
         options: {
           run: true,
-          urls: ['http://localhost:<%= connect.options.port %>/index.html']
+          urls: ['http://localhost:<%%= connect.options.port %>/index.html']
         }
       }
     },
