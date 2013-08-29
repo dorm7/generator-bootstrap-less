@@ -93,7 +93,8 @@ BootstrapLessGenerator.prototype.h5bp = function h5bp() {
 };
 
 BootstrapLessGenerator.prototype.mainStylesheet = function mainStylesheet() {
-  var html = '@import "../bower_components/bootstrap/less/bootstrap.less";\n@icon-font-path: "../fonts/glyphicons/";\n\n';
+  
+  var html = '@import "bootstrap.less";\n@icon-font-path: "../fonts/glyphicons/";\n\n';
 
   if (this.fontawesome) {
     html = html + '@import "../bower_components/font-awesome/less/font-awesome.less";\n@FontAwesomePath: "../fonts/font-awesome";\n\n';
