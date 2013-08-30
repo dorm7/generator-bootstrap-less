@@ -1,15 +1,24 @@
-# Generator Django Bootstrap Less 
+
+================================
+Generator Django Bootstrap Less 
+================================
+
+
+
 
 A Generator for Yeoman to work with the Less version of Bootstrap and move data to sibling static folder
 
-## Install
+Install
+-------
+   
+   .. code-block:: bash
+   
+    sudo npm i  -g git+https://github.com/dorm7/generator-django-bootstrap-less
+    mkdir yourapp/f2e
+    yo django-bootstrap-less
 
-   
-   
-   mkdir yourapp/f2e
-   
-
-## Usage
+Usage
+-----
 
    * grunt server   # do launch dev server
    * grunt build    #will move data to ../static/build
@@ -17,6 +26,7 @@ A Generator for Yeoman to work with the Less version of Bootstrap and move data 
 
 
 
-## TODO
+TODO
+----
 
    live-reload is not work while using grunt django
